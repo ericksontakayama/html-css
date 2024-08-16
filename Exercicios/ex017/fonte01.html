@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in(polegadas), px, pt, pc
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente é = 1em 
+            */
+        }
+
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: italic;
+        }
+            /*
+            Podemos utilizar as shorthand font
+            seguindo a seguinte sequencia
+            font-style -> font-weight -> font-size -> font-family
+            */
+        h2{
+            font: italic bolder 2em 'times new roman';
+        }
+
+        h3{
+            font: bolder 3em arial;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium facilis non nemo dolorem error maxime accusamus porro incidunt explicabo. Aspernatur maxime alias eius nemo iure quia aut soluta omnis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quisquam tempora dolorem, voluptatem nemo, quia et, perspiciatis alias vitae tempore enim quas inventore. Quaerat expedita enim unde laudantium sequi perspiciatis.</p>
+
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos delectus non itaque quasi ducimus, rem consectetur labore quas nam illum consequatur expedita sit perspiciatis sint ex laboriosam, distinctio, ea accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quo nostrum veritatis officia dolorem vero, iure sequi at quibusdam molestias, ullam exercitationem nam architecto a cupiditate earum saepe non est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam libero repudiandae repellendus facilis sit distinctio eveniet, suscipit, natus corporis soluta minima quas sapiente error nihil, deserunt consectetur quisquam. Sit, veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nulla? Quis qui dignissimos ipsam nostrum pariatur veritatis, libero, deleniti aliquam, perspiciatis officiis ea cupiditate aspernatur! Tenetur quod nulla enim repellendus.</p>
+
+    <h3>outro teste</h3>
+</body>
+</html>
